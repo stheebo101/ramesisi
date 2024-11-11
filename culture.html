@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Culture of Ancient Egypt</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- Modal -->
+  <div id="learnMoreModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>More Information</h2>
+      <p>
+        This is a more detailed section about the specific topic you're
+        interested in. It can contain images, videos, and more content.
+      </p>
+    </div>
+  </div>
+  <button id="learnMoreBtn" class="learn-more">Learn More</button>
+
+  <body>
+    <header>
+      <h1>Ancient Egypt Encyclopedia</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="culture.html">Culture</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="culture" class="section">
+        <h2>The Culture of Ancient Egypt</h2>
+        <img src="images/Ankh Symbol.jpg" alt="Ankh Symbol" />
+        <p>
+          Egyptian culture was rich in art, music, and religious practices. They
+          are known for their complex rituals and contributions to science and
+          the arts.
+        </p>
+        <button onclick="toggleInfo('culture-more')">Learn More</button>
+        <p id="culture-more" class="hidden">
+          Egyptian society was highly structured, with the Pharaoh at the top.
+          Art and architecture were deeply connected to religion, and they made
+          advancements in literature, medicine, and mathematics.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Ancient Egypt Encyclopedia. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
